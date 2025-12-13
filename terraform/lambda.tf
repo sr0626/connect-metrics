@@ -108,6 +108,7 @@ resource "aws_lambda_event_source_mapping" "ae" {
   batch_size        = 100
 }
 
+# TODO :  The below uses EB for Contact event.  Instead change it KDS (CONTACT_EVENTS) to understand the diff.
 # EventBridge rule to capture Amazon Connect Contact Events
 resource "aws_cloudwatch_event_rule" "ce" {
   name        = "${var.instance_alias}-ce"
