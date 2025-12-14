@@ -2,7 +2,22 @@
 
 This repository contains Infrastructure-as-Code (IaC) for deploying and managing an **Amazon Connect** instance and its related AWS resources using **Terraform**.  
 
-This is build on top of connect-setup project to add **event logging (CTR, Agent Events and Contact Events)** to cloud watch log groups using Kinesis streams, Event Bridge and Lamba(python) functions.
+This is build on top of connect-setup project to add **event logging (CTR, Agent Events and Contact Events)** to **cloud watch log groups** using Kinesis streams, Event Bridge and Lamba(python) functions.
+
+**Agent Events** are captured using Kinesis Data Streams and **Contact Events** are captured through EventBridge.  It's not possible to use Kinesis for Contact Events like (INITIATED, CONTACT_DATA_UPDATED, CONNECTED_TO_SYSTEM, QUEUED, DISCONNECTED etc) as of now.
+
+Event Bridge rule :  source: "aws.connect", rule prefix: "Amazon Connect Contact"
+
+Expected resource_type to be one of ["CHAT_TRANSCRIPTS" "CALL_RECORDINGS" "SCHEDULED_REPORTS" "MEDIA_STREAMS" 
+"CONTACT_TRACE_RECORDS" "AGENT_EVENTS" "REAL_TIME_CONTACT_ANALYSIS_SEGMENTS" "ATTACHMENTS" "CONTACT_EVALUATIONS" 
+"SCREEN_RECORDINGS" "REAL_TIME_CONTACT_ANALYSIS_CHAT_SEGMENTS" "REAL_TIME_CONTACT_ANALYSIS_VOICE_SEGMENTS" 
+"EMAIL_MESSAGES"]
+
+At the end of an incoming contact flow call, this setup generates the follwing:
+
+- CW Logs - ce (contact events), ae (agent events), ctr (contact trace records)
+- s3 - recoding audio file in call_recordings/ folder
+
 
 ---
 

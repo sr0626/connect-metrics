@@ -177,6 +177,10 @@ resource "aws_connect_instance_storage_config" "stream_ctr" {
   }
 }
 
+#expected resource_type to be one of ["CHAT_TRANSCRIPTS" "CALL_RECORDINGS" "SCHEDULED_REPORTS" "MEDIA_STREAMS" 
+#"CONTACT_TRACE_RECORDS" "AGENT_EVENTS" "REAL_TIME_CONTACT_ANALYSIS_SEGMENTS" "ATTACHMENTS" "CONTACT_EVALUATIONS" 
+#"SCREEN_RECORDINGS" "REAL_TIME_CONTACT_ANALYSIS_CHAT_SEGMENTS" "REAL_TIME_CONTACT_ANALYSIS_VOICE_SEGMENTS" 
+#"EMAIL_MESSAGES"]
 resource "aws_connect_instance_storage_config" "stream_agent_events" {
   #depends_on    = [aws_kinesis_resource_policy.connect_stream_policy]
   instance_id   = aws_connect_instance.test.id

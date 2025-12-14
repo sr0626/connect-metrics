@@ -116,7 +116,7 @@
   "Actions": [
     {
       "Parameters": {
-        "QueueId": "arn:aws:connect:us-west-2:044336301301:instance/8db879ba-5682-4dd9-b494-4c055a26727f/queue/cecacd74-921d-4e4f-bd86-379f0c003033"
+        "QueueId": "arn:aws:connect:us-west-2:044336301301:instance/f14c5b3e-a70b-4e35-bdd3-35d8359f994d/queue/3dd47fe4-6926-4688-a447-14a4925b7c0e"
       },
       "Identifier": "a0241708-06d3-4d80-93f8-ab26360ccef0",
       "Type": "UpdateContactTargetQueue",
