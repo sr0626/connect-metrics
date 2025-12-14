@@ -97,7 +97,7 @@ At the end of an incoming contact flow call, this setup generates the follwing:
     8. Hangup the call
     9. Select Close Contact
     10. Check your s3 bucket for call recordings
-    11. Check CW logs group for the call trace
+    11. Check CW logs group for the call trace record (ctr), agent events (ae) and contact events (ce)
 
 6. **Log groups**
     The below logs groups are created for CTRs, Agent Events and Contact Events respectively.  These logs can be used to build real-time and historical dashboards.  
