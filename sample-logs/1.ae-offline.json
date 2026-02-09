@@ -1,0 +1,119 @@
+{
+    "AWSAccountId": "044336301301",
+    "AgentARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/agent/1ae6567c-b815-40df-a9a3-4073811895cb",
+    "CurrentAgentSnapshot": {
+        "AgentStatus": {
+            "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/agent-state/727780d7-bb12-4eaf-9ca5-93405be6af54",
+            "Name": "Offline",
+            "StartTimestamp": "2026-02-09T03:54:34.496Z",
+            "Type": "OFFLINE"
+        },
+        "Configuration": {
+            "AgentHierarchyGroups": null,
+            "AutoAccept": false,
+            "FirstName": "example",
+            "LanguageCode": "",
+            "LastName": "agent",
+            "Proficiencies": [],
+            "RoutingProfile": {
+                "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/routing-profile/8c3389e0-765d-4605-b569-a32b216b1b7d",
+                "Concurrency": [
+                    {
+                        "AvailableSlots": 1,
+                        "Channel": "VOICE",
+                        "CurrentAvailableSlots": 0,
+                        "MaximumSlots": 1
+                    }
+                ],
+                "DefaultOutboundQueue": {
+                    "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/5fd9ccf5-edc4-4396-a7a4-9016039d82d2",
+                    "Channels": [
+                        "VOICE"
+                    ],
+                    "Name": "BasicQueue"
+                },
+                "InboundQueues": [
+                    {
+                        "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/01ef3caa-4f04-4b0f-9cc1-11b9d1ba2ced",
+                        "Channels": [
+                            "VOICE"
+                        ],
+                        "Name": "My Basic Queue"
+                    },
+                    {
+                        "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/agent/1ae6567c-b815-40df-a9a3-4073811895cb",
+                        "Channels": [
+                            "VOICE"
+                        ],
+                        "Name": null
+                    }
+                ],
+                "Name": "My Routing Profile"
+            },
+            "SipAddress": "",
+            "Username": "my_agent"
+        },
+        "Contacts": [],
+        "NextAgentStatus": null
+    },
+    "EventId": "8af8337c-a00a-4cbd-90f4-83d3cc70b437",
+    "EventTimestamp": "2026-02-09T03:57:18.146Z",
+    "EventType": "HEART_BEAT",
+    "InstanceARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9",
+    "PreviousAgentSnapshot": {
+        "AgentStatus": {
+            "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/agent-state/727780d7-bb12-4eaf-9ca5-93405be6af54",
+            "Name": "Offline",
+            "StartTimestamp": "2026-02-09T03:54:34.496Z",
+            "Type": "OFFLINE"
+        },
+        "Configuration": {
+            "AgentHierarchyGroups": null,
+            "AutoAccept": false,
+            "FirstName": "example",
+            "LanguageCode": "",
+            "LastName": "agent",
+            "Proficiencies": [],
+            "RoutingProfile": {
+                "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/routing-profile/8c3389e0-765d-4605-b569-a32b216b1b7d",
+                "Concurrency": [
+                    {
+                        "AvailableSlots": 1,
+                        "Channel": "VOICE",
+                        "CurrentAvailableSlots": 0,
+                        "MaximumSlots": 1
+                    }
+                ],
+                "DefaultOutboundQueue": {
+                    "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/5fd9ccf5-edc4-4396-a7a4-9016039d82d2",
+                    "Channels": [
+                        "VOICE"
+                    ],
+                    "Name": "BasicQueue"
+                },
+                "InboundQueues": [
+                    {
+                        "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/01ef3caa-4f04-4b0f-9cc1-11b9d1ba2ced",
+                        "Channels": [
+                            "VOICE"
+                        ],
+                        "Name": "My Basic Queue"
+                    },
+                    {
+                        "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/agent/1ae6567c-b815-40df-a9a3-4073811895cb",
+                        "Channels": [
+                            "VOICE"
+                        ],
+                        "Name": null
+                    }
+                ],
+                "Name": "My Routing Profile"
+            },
+            "SipAddress": "",
+            "Username": "my_agent"
+        },
+        "Contacts": [],
+        "NextAgentStatus": null
+    },
+    "Version": "2017-10-01"
+}

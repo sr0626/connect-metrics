@@ -1,0 +1,103 @@
+{
+    "AWSAccountId": "044336301301",
+    "AWSContactTraceRecordFormatVersion": "2017-03-10",
+    "Agent": null,
+    "AgentConnectionAttempts": 0,
+    "AnsweringMachineDetectionStatus": null,
+    "Attributes": {
+        "DisconnectFlowRun": "Y",
+        "greetingPlayed": "true",
+        "note": "This note demonstrates how attributes can appear in the screen pop."
+    },
+    "Campaign": {
+        "CampaignId": null
+    },
+    "Channel": "VOICE",
+    "ConnectedToSystemTimestamp": "2026-02-09T04:00:41Z",
+    "ContactAssociationId": "c05ed2c6-1f6e-4d13-b6bd-0e3f57b019fc",
+    "ContactDetails": {},
+    "ContactId": "1968b1e6-7428-463b-a0f2-d58c5e738c5f",
+    "CustomerEndpoint": {
+        "Address": "+12146817675",
+        "Type": "TELEPHONE_NUMBER"
+    },
+    "CustomerVoiceActivity": null,
+    "DisconnectReason": "CONTACT_FLOW_DISCONNECT",
+    "DisconnectTimestamp": "2026-02-09T04:00:56Z",
+    "InitialContactId": "c05ed2c6-1f6e-4d13-b6bd-0e3f57b019fc",
+    "InitiationMethod": "DISCONNECT",
+    "InitiationTimestamp": "2026-02-09T04:00:41Z",
+    "InstanceARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9",
+    "LastUpdateTimestamp": "2026-02-09T04:02:14Z",
+    "MediaStreams": [
+        {
+            "Type": "AUDIO"
+        }
+    ],
+    "NextContactId": null,
+    "PreviousContactId": "c05ed2c6-1f6e-4d13-b6bd-0e3f57b019fc",
+    "Queue": null,
+    "Recording": null,
+    "Recordings": null,
+    "References": [],
+    "ScheduledTimestamp": null,
+    "SegmentAttributes": {
+        "connect:Purpose": {
+            "ValueArn": null,
+            "ValueInteger": null,
+            "ValueList": null,
+            "ValueMap": {
+                "analytics": {
+                    "ValueArn": null,
+                    "ValueInteger": null,
+                    "ValueList": [
+                        {
+                            "ValueArn": null,
+                            "ValueInteger": null,
+                            "ValueList": null,
+                            "ValueMap": null,
+                            "ValueString": "connect:Subtype"
+                        }
+                    ],
+                    "ValueMap": null,
+                    "ValueString": null
+                },
+                "contact-attributes-search": {
+                    "ValueArn": null,
+                    "ValueInteger": null,
+                    "ValueList": [
+                        {
+                            "ValueArn": null,
+                            "ValueInteger": null,
+                            "ValueList": null,
+                            "ValueMap": null,
+                            "ValueString": "connect:Subtype"
+                        }
+                    ],
+                    "ValueMap": null,
+                    "ValueString": null
+                }
+            },
+            "ValueString": null
+        },
+        "connect:Subtype": {
+            "ValueArn": null,
+            "ValueInteger": null,
+            "ValueList": null,
+            "ValueMap": null,
+            "ValueString": "connect:Telephony"
+        }
+    },
+    "SystemEndpoint": {
+        "Address": "+16465193847",
+        "Type": "TELEPHONE_NUMBER"
+    },
+    "Tags": {
+        "aws:connect:instanceId": "97368d16-f517-45c8-b9c6-267868f5a2f9",
+        "aws:connect:systemEndpoint": "+16465193847"
+    },
+    "TaskTemplateInfo": null,
+    "TransferCompletedTimestamp": null,
+    "TransferredToEndpoint": null,
+    "VoiceIdResult": null
+}

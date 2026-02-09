@@ -1,0 +1,45 @@
+{
+    "eventType": "COMPLETED",
+    "contactId": "1968b1e6-7428-463b-a0f2-d58c5e738c5f",
+    "initialContactId": "c05ed2c6-1f6e-4d13-b6bd-0e3f57b019fc",
+    "previousContactId": "c05ed2c6-1f6e-4d13-b6bd-0e3f57b019fc",
+    "contactAssociationId": "c05ed2c6-1f6e-4d13-b6bd-0e3f57b019fc",
+    "channel": "VOICE",
+    "instanceArn": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9",
+    "initiationMethod": "DISCONNECT",
+    "initiationTimestamp": "2026-02-09T04:00:41.790Z",
+    "connectedToSystemTimestamp": "2026-02-09T04:00:41.861Z",
+    "disconnectTimestamp": "2026-02-09T04:00:56.364Z",
+    "tags": {
+        "aws:connect:instanceId": "97368d16-f517-45c8-b9c6-267868f5a2f9",
+        "aws:connect:systemEndpoint": "+16465193847"
+    },
+    "segmentAttributes": {
+        "connect:Purpose": {
+            "valueMap": {
+                "analytics": {
+                    "valueList": [
+                        {
+                            "valueString": "connect:Subtype"
+                        }
+                    ]
+                },
+                "contact-attributes-search": {
+                    "valueList": [
+                        {
+                            "valueString": "connect:Subtype"
+                        }
+                    ]
+                }
+            }
+        },
+        "connect:Subtype": {
+            "valueString": "connect:Telephony"
+        }
+    },
+    "systemEndpoint": {
+        "type": "TELEPHONE_NUMBER",
+        "address": "+16465193847"
+    },
+    "contactDetails": {}
+}

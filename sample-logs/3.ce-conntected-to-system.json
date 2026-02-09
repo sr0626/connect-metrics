@@ -1,0 +1,42 @@
+{
+    "eventType": "CONNECTED_TO_SYSTEM",
+    "contactId": "c05ed2c6-1f6e-4d13-b6bd-0e3f57b019fc",
+    "contactAssociationId": "c05ed2c6-1f6e-4d13-b6bd-0e3f57b019fc",
+    "channel": "VOICE",
+    "instanceArn": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9",
+    "initiationMethod": "INBOUND",
+    "initiationTimestamp": "2026-02-09T03:57:10.872Z",
+    "connectedToSystemTimestamp": "2026-02-09T03:57:11.466Z",
+    "tags": {
+        "aws:connect:instanceId": "97368d16-f517-45c8-b9c6-267868f5a2f9",
+        "aws:connect:systemEndpoint": "+16465193847"
+    },
+    "segmentAttributes": {
+        "connect:Purpose": {
+            "valueMap": {
+                "analytics": {
+                    "valueList": [
+                        {
+                            "valueString": "connect:Subtype"
+                        }
+                    ]
+                },
+                "contact-attributes-search": {
+                    "valueList": [
+                        {
+                            "valueString": "connect:Subtype"
+                        }
+                    ]
+                }
+            }
+        },
+        "connect:Subtype": {
+            "valueString": "connect:Telephony"
+        }
+    },
+    "systemEndpoint": {
+        "type": "TELEPHONE_NUMBER",
+        "address": "+16465193847"
+    },
+    "contactDetails": {}
+}

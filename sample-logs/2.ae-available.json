@@ -1,0 +1,133 @@
+{
+    "AWSAccountId": "044336301301",
+    "AgentARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/agent/dca820f9-41e2-4c2b-b9df-5f8d0058fc43",
+    "CurrentAgentSnapshot": {
+        "AgentStatus": {
+            "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/agent-state/2bc5857f-8f59-42d0-a5c2-0d9d8442312a",
+            "Name": "Available",
+            "StartTimestamp": "2026-02-09T03:58:52.848Z",
+            "Type": "ROUTABLE"
+        },
+        "Configuration": {
+            "AgentHierarchyGroups": null,
+            "AutoAccept": false,
+            "FirstName": null,
+            "LanguageCode": "",
+            "LastName": null,
+            "Proficiencies": [],
+            "RoutingProfile": {
+                "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/routing-profile/7f5462db-1fbc-42f3-b992-1a2b9ac8101d",
+                "Concurrency": [
+                    {
+                        "AvailableSlots": 2,
+                        "Channel": "CHAT",
+                        "CurrentAvailableSlots": 2,
+                        "MaximumSlots": 2
+                    },
+                    {
+                        "AvailableSlots": 1,
+                        "Channel": "TASK",
+                        "CurrentAvailableSlots": 1,
+                        "MaximumSlots": 1
+                    },
+                    {
+                        "AvailableSlots": 1,
+                        "Channel": "VOICE",
+                        "CurrentAvailableSlots": 1,
+                        "MaximumSlots": 1
+                    }
+                ],
+                "DefaultOutboundQueue": {
+                    "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/5fd9ccf5-edc4-4396-a7a4-9016039d82d2",
+                    "Channels": [
+                        "VOICE"
+                    ],
+                    "Name": "BasicQueue"
+                },
+                "InboundQueues": [
+                    {
+                        "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/5fd9ccf5-edc4-4396-a7a4-9016039d82d2",
+                        "Channels": [
+                            "CHAT",
+                            "TASK",
+                            "VOICE"
+                        ],
+                        "Name": "BasicQueue"
+                    }
+                ],
+                "Name": "Basic Routing Profile"
+            },
+            "SipAddress": "",
+            "Username": "AIDAQUUVGIT24D26NDWTU"
+        },
+        "Contacts": [],
+        "NextAgentStatus": null
+    },
+    "EventId": "670cc254-9170-4fa6-b047-e842a77dd7d8",
+    "EventTimestamp": "2026-02-09T03:58:52.848Z",
+    "EventType": "STATE_CHANGE",
+    "InstanceARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9",
+    "PreviousAgentSnapshot": {
+        "AgentStatus": {
+            "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/agent-state/727780d7-bb12-4eaf-9ca5-93405be6af54",
+            "Name": "Offline",
+            "StartTimestamp": "2026-02-09T03:58:51.375Z",
+            "Type": "OFFLINE"
+        },
+        "Configuration": {
+            "AgentHierarchyGroups": null,
+            "AutoAccept": false,
+            "FirstName": null,
+            "LanguageCode": "",
+            "LastName": null,
+            "Proficiencies": [],
+            "RoutingProfile": {
+                "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/routing-profile/7f5462db-1fbc-42f3-b992-1a2b9ac8101d",
+                "Concurrency": [
+                    {
+                        "AvailableSlots": 2,
+                        "Channel": "CHAT",
+                        "CurrentAvailableSlots": 0,
+                        "MaximumSlots": 2
+                    },
+                    {
+                        "AvailableSlots": 1,
+                        "Channel": "TASK",
+                        "CurrentAvailableSlots": 0,
+                        "MaximumSlots": 1
+                    },
+                    {
+                        "AvailableSlots": 1,
+                        "Channel": "VOICE",
+                        "CurrentAvailableSlots": 0,
+                        "MaximumSlots": 1
+                    }
+                ],
+                "DefaultOutboundQueue": {
+                    "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/5fd9ccf5-edc4-4396-a7a4-9016039d82d2",
+                    "Channels": [
+                        "VOICE"
+                    ],
+                    "Name": "BasicQueue"
+                },
+                "InboundQueues": [
+                    {
+                        "ARN": "arn:aws:connect:us-west-2:044336301301:instance/97368d16-f517-45c8-b9c6-267868f5a2f9/queue/5fd9ccf5-edc4-4396-a7a4-9016039d82d2",
+                        "Channels": [
+                            "CHAT",
+                            "TASK",
+                            "VOICE"
+                        ],
+                        "Name": "BasicQueue"
+                    }
+                ],
+                "Name": "Basic Routing Profile"
+            },
+            "SipAddress": "",
+            "Username": "AIDAQUUVGIT24D26NDWTU"
+        },
+        "Contacts": [],
+        "NextAgentStatus": null
+    },
+    "Version": "2017-10-01"
+}
